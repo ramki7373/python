@@ -1,0 +1,22 @@
+print("Adding two numbers")
+print("This is for testing interger float")
+
+
+num1 = input("Enter a number: ")
+num2 = input("enter a number : ")
+result = num1 + num2
+
+print("result using with out integer"+ result)
+
+
+num01 = input("Enter a number: ")
+num02 = input("enter a number : ")
+intresult = int(num01) + int(num02)
+print(intresult)
+print('result using with  integer' + str(intresult))
+
+num1 = input('Enter a number: ')
+num2 = input("enter a number : ")
+result = float(num1) + float(num2)
+
+print("result using with  result"+ str(result))
