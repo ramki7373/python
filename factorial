@@ -1,0 +1,54 @@
+
+print("#printing the factorial using while loop")
+
+
+
+def fact(a):
+    b1=1
+    b=a
+
+ # type: ignore
+    while(b>0):
+        print(b1)
+
+        b1=b1*b
+        b -=1
+        
+       
+
+fact(7)
+
+print("#printing the factorial using for  loop")
+
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+number = 5
+result = factorial(number)
+print(f"The factorial of {number} is {result}")
+
+
+
+
+
+ 
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+    
+    
